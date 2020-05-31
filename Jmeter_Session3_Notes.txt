@@ -1,0 +1,43 @@
+what is bean shell
+
+- scripting language in java
+- dynamically execute standard java syntax
+- Loose type ? no data type
+
+
+usage of bean shell in Jmeter
+- bean Shell Sampler
+- bean shell preprocessor
+- bean shell post processor
+
+
+//bean shell sampler
+var link;  // defined the variable
+vars.put("link","www.google.com"); // set the value to the variable
+var x = vars.get("link"); // get the value of variable
+
+
+
+// bean shell preprocessor
+var rc = prev.getResponseCode();// store value of response code
+var rm = prev.getResponseMessage(); // store value of response message
+
+log.info("******value of RC is ********"+rc);
+log.info("******value of RM is ********"+rm);
+
+
+
+
+
+
+Steps for passing session id in different thread groups
+
+1) Retrieve session id from launch thread group , store it in a variable------.> Post Processor Bean Shell
+2) update/add value of dynamic session id in cookie manager.--------->Pre processor Bean shell
+
+
+vars----> scope is local
+props--->scope is global
+
+
+
