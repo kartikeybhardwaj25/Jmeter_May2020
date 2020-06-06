@@ -1,0 +1,14 @@
+Jmeter Important Links
+
+Jmeter plugins
+https://jmeter-plugins.org/
+
+Jmeter Bean shell
+https://www.blazemeter.com/blog/using-beanshell-beginners-no-java-knowledge-required
+http://www.beanshell.org/manual/bshmanual.html
+
+Dummy Datbase
+https://www.db4free.net/about.php
+
+Jmeter help
+https://jmeter.apache.org/usermanual/component_reference.html#[res_key=SteppingThreadGroupGui]
